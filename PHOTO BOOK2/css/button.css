@@ -3,7 +3,7 @@
 .btnlinestretches4{
     /*線の基点とするためrelativeを指定*/
 	position:relative;
-    /*リンクの形状*/
+    /*リンクの形状*/ 
 	display:inline-block;
     text-decoration: none;
     outline: none;
@@ -42,8 +42,8 @@
     content: '';
     /*絶対配置で矢印の位置を決める*/
     position: absolute;
-    top: 1.3em;
-    right: 20px;
+    top: 0.5em;
+    right: -10px;
     /*矢印の形状*/   
     width: 5px;
     height: 5px;
@@ -56,5 +56,5 @@
 
 /*hover時に矢印が移動*/   
 .btnlinestretches4:hover span::after {
-	right:15px;
+	right:-15px;
 }

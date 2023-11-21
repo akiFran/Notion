@@ -6,7 +6,7 @@
 	text-decoration: none;
 	display: inline-block;
     text-align: center;
-    background: #fff;
+    background: transparent;
 	border: solid 1px #333;
     outline: none;
     /*アニメーションの指定*/
